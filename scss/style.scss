@@ -1,9 +1,11 @@
+@import "contact";
+@import "workexperiences";
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Zen Kurenaido", sans-serif;
   font-size: 120%;
@@ -13,7 +15,6 @@ body {
 .navbar-light .navbar-nav .nav-link {
   color: #551a8b;
 }
-
 header {
   background-color: white;
   padding: 0.5;
@@ -27,18 +28,15 @@ header {
 .nav-link:focus {
   opacity: 0.6;
 }
-
 /* AQUI COMIENZAN LAS SETTINGS DEL MAIN*/
 .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .col {
   width: 100%;
 }
-
 .title {
   text-transform: capitalize;
   font-size: 2.5rem;
@@ -46,14 +44,12 @@ header {
   margin-left: 2rem;
   padding-top: 1.5rem;
 }
-
 .paragraph {
   font-size: 2rem;
   font-weight: 400;
   margin-top: 1.2rem;
   margin-left: 2rem;
 }
-
 .image-box {
   margin-top: 0;
   text-align: center;
@@ -65,26 +61,21 @@ header {
   padding-top: 8rem;
   bottom: 0;
 }
-
 .footer-sm {
   color: black;
 }
-
 .footer-sm a i {
   font-size: 1rem;
   margin-left: 1rem;
   color: #551a8b;
 }
-
 .footer-sm__icons {
   text-align: center;
   padding-top: 1rem;
 }
-
 .footer-bottom {
   padding: 1rem;
 }
-
 .footer-bottom__copyright {
   text-align: center;
 }
@@ -95,7 +86,6 @@ fieldset {
   margin: auto;
   text-align: center;
 }
-
 /* WORK EXPERIENCES */
 .grid-experiences {
   display: grid;
@@ -110,17 +100,15 @@ fieldset {
 
 .a {
   grid-area: a;
-  background-color: #adadad;
+  background-color: rgb(173, 173, 173);
 }
-
 .b {
   grid-area: b;
-  background-color: #adadad;
+  background-color: rgb(173, 173, 173);
 }
-
 .c {
   grid-area: c;
-  background-color: #adadad;
+  background-color: rgb(173, 173, 173);
 }
 
 /*EXTRAS*/
@@ -137,7 +125,9 @@ fieldset {
 .grid-ejemplo {
   display: grid;
   width: 100%;
-  grid-template-areas: "box1 box2" "box3 box4";
+  grid-template-areas:
+    "box1 box2"
+    "box3 box4";
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 100px 200px;
   grid-gap: 2rem;
@@ -147,32 +137,25 @@ fieldset {
   grid-area: box1;
   background-color: blue;
 }
-
 .box2 {
   grid-area: box2;
   background-color: brown;
 }
-
 .box3 {
   grid-area: box3;
   background-color: yellow;
 }
-
 .box4 {
   grid-area: box4;
   background-color: green;
 }
-
 #tabla {
   border: coral;
 }
 
 @media screen and (max-width: 600px) {
   .grid-experiences {
-    grid-template-areas: "a" "b" "c";
     grid-template-columns: 1fr;
     grid-template-rows: 400px 400px 400px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
