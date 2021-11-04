@@ -82,6 +82,8 @@ fieldset {
   width: 80%;
   margin: auto;
   text-align: center;
+  padding-left: 15rem;
+  padding-right: 15rem;
 }
 /* WORK EXPERIENCES */
 .grid-experiences {
@@ -94,12 +96,7 @@ fieldset {
   grid-gap: 2rem;
   text-align: center;
 }
-@media screen and (max-width: 600px) {
-  .grid-experiences {
-    grid-template-columns: 5fr;
-    grid-template-rows: 400px 400px 400px;
-  }
-}
+
 .a {
   grid-area: a;
   background-color: rgb(173, 173, 173);
@@ -153,4 +150,11 @@ fieldset {
 }
 #tabla {
   border: coral;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-experiences {
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 400px;
+  }
 }
