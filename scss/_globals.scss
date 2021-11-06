@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 120%;
+}
+
+.col {
+  width: 100%;
+}
+// VARIABLES
+$color-primario: #551a8b;
+/* AQUI COMIENZAN LAS SETTINGS DEL HEADER */
+.navbar-light .navbar-nav .nav-link {
+  color: $color-primario;
+}
+header {
+  background-color: white;
+  padding: 0.5;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/*Estas propiedades me sirven para que cuando pase el mouse por arriba del link tenga efecto*/
+.nav-link:hover,
+.nav-link:focus {
+  opacity: 0.6;
+}
+/* AQUI COMIENZA EL FOOTER */
+
+.footer {
+  padding-top: 8rem;
+  bottom: 0;
+  &-sm {
+    color: black;
+    & a i {
+      font-size: 1rem;
+      margin-left: 1rem;
+      color: $color-primario;
+    }
+    &__icons {
+      text-align: center;
+      padding-top: 1rem;
+    }
+  }
+  &-bottom {
+    padding: 1rem;
+    &__copyright {
+      text-align: center;
+    }
+  }
+}

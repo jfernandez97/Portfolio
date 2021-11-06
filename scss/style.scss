@@ -1,115 +1,7 @@
+@import "globals";
 @import "contact";
 @import "workexperiences";
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: "Zen Kurenaido", sans-serif;
-  font-size: 120%;
-}
-
-/* AQUI COMIENZAN LAS SETTINGS DEL HEADER */
-.navbar-light .navbar-nav .nav-link {
-  color: #551a8b;
-}
-header {
-  background-color: white;
-  padding: 0.5;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-/*Estas propiedades me sirven para que cuando pase el mouse por arriba del link tenga efecto*/
-.nav-link:hover,
-.nav-link:focus {
-  opacity: 0.6;
-}
-/* AQUI COMIENZAN LAS SETTINGS DEL MAIN*/
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.col {
-  width: 100%;
-}
-.title {
-  text-transform: capitalize;
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-left: 2rem;
-  padding-top: 1.5rem;
-}
-.paragraph {
-  font-size: 2rem;
-  font-weight: 400;
-  margin-top: 1.2rem;
-  margin-left: 2rem;
-}
-.image-box {
-  margin-top: 0;
-  text-align: center;
-  animation: from-right 1.5s ease;
-}
-
-/* AQUI COMIENZA EL FOOTER */
-.footer {
-  padding-top: 8rem;
-  bottom: 0;
-}
-.footer-sm {
-  color: black;
-}
-.footer-sm a i {
-  font-size: 1rem;
-  margin-left: 1rem;
-  color: #551a8b;
-}
-.footer-sm__icons {
-  text-align: center;
-  padding-top: 1rem;
-}
-.footer-bottom {
-  padding: 1rem;
-}
-.footer-bottom__copyright {
-  text-align: center;
-}
-
-/* CONTACT PAGE */
-fieldset {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-}
-/* WORK EXPERIENCES */
-.grid-experiences {
-  display: grid;
-  width: 100%;
-  padding: 0 2rem;
-  grid-template-areas: "a b c";
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 400px;
-  grid-gap: 2rem;
-  text-align: center;
-}
-
-.a {
-  grid-area: a;
-  background-color: rgb(173, 173, 173);
-}
-.b {
-  grid-area: b;
-  background-color: rgb(173, 173, 173);
-}
-.c {
-  grid-area: c;
-  background-color: rgb(173, 173, 173);
-}
+@import "index";
 
 /*EXTRAS*/
 @keyframes from-right {
@@ -151,11 +43,4 @@ fieldset {
 }
 #tabla {
   border: coral;
-}
-
-@media screen and (max-width: 600px) {
-  .grid-experiences {
-    grid-template-columns: 1fr;
-    grid-template-rows: 400px 400px 400px;
-  }
 }

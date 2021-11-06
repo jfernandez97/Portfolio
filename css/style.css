@@ -9,6 +9,10 @@ body {
   font-size: 120%;
 }
 
+.col {
+  width: 100%;
+}
+
 /* AQUI COMIENZAN LAS SETTINGS DEL HEADER */
 .navbar-light .navbar-nav .nav-link {
   color: #551a8b;
@@ -28,63 +32,26 @@ header {
   opacity: 0.6;
 }
 
-/* AQUI COMIENZAN LAS SETTINGS DEL MAIN*/
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.col {
-  width: 100%;
-}
-
-.title {
-  text-transform: capitalize;
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-left: 2rem;
-  padding-top: 1.5rem;
-}
-
-.paragraph {
-  font-size: 2rem;
-  font-weight: 400;
-  margin-top: 1.2rem;
-  margin-left: 2rem;
-}
-
-.image-box {
-  margin-top: 0;
-  text-align: center;
-  animation: from-right 1.5s ease;
-}
-
 /* AQUI COMIENZA EL FOOTER */
 .footer {
   padding-top: 8rem;
   bottom: 0;
 }
-
 .footer-sm {
   color: black;
 }
-
 .footer-sm a i {
   font-size: 1rem;
   margin-left: 1rem;
   color: #551a8b;
 }
-
 .footer-sm__icons {
   text-align: center;
   padding-top: 1rem;
 }
-
 .footer-bottom {
   padding: 1rem;
 }
-
 .footer-bottom__copyright {
   text-align: center;
 }
@@ -121,6 +88,38 @@ fieldset {
 .c {
   grid-area: c;
   background-color: #adadad;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-experiences {
+    grid-template-areas: "a" "b" "c";
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 400px;
+  }
+}
+/* AQUI COMIENZAN LAS SETTINGS DEL MAIN*/
+.title {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-left: 2rem;
+  padding-top: 1.5rem;
+  text-align: justify;
+}
+
+.paragraph {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 1.2rem;
+  margin-left: 2rem;
+  text-align: justify;
+}
+
+.image-box {
+  margin-top: 0;
+  text-align: justify;
+  animation: from-right 1.5s ease;
+  padding-top: 1.5rem;
 }
 
 /*EXTRAS*/
@@ -165,14 +164,6 @@ fieldset {
 
 #tabla {
   border: coral;
-}
-
-@media screen and (max-width: 600px) {
-  .grid-experiences {
-    grid-template-areas: "a" "b" "c";
-    grid-template-columns: 1fr;
-    grid-template-rows: 400px 400px 400px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
