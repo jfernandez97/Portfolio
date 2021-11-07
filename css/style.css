@@ -90,6 +90,10 @@ fieldset {
   background-color: #adadad;
 }
 
+.experience-text {
+  padding: 1em;
+}
+
 @media screen and (max-width: 600px) {
   .grid-experiences {
     grid-template-areas: "a" "b" "c";
