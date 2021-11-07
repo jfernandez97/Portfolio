@@ -10,7 +10,6 @@
   grid-gap: 2rem;
   text-align: center;
 }
-
 .a {
   grid-area: a;
   //background-color: rgb(173, 173, 173);
@@ -26,11 +25,19 @@
 }
 .experience-text {
   padding: 1em;
+  font-weight: 600;
 }
 .experience-banner img {
   padding-top: 1rem;
 }
 
+//TEXT//
+.experience-text-company-title {
+  font-weight: 600;
+}
+.experience-text-role {
+  font-weight: 600;
+}
 @media screen and (max-width: 600px) {
   .grid-experiences {
     grid-template-areas: "a" "b" "c";
