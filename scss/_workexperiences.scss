@@ -6,31 +6,35 @@
   padding: 0 2rem;
   grid-template-areas: "a b c";
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 400px;
+  grid-template-rows: 650px;
   grid-gap: 2rem;
   text-align: center;
 }
 
 .a {
   grid-area: a;
-  background-color: rgb(173, 173, 173);
+  //background-color: rgb(173, 173, 173);
+  background-image: linear-gradient($color-primario, white);
 }
 .b {
   grid-area: b;
-  background-color: rgb(173, 173, 173);
+  background-image: linear-gradient($color-primario, white);
 }
 .c {
   grid-area: c;
-  background-color: rgb(173, 173, 173);
+  background-image: linear-gradient($color-primario, white);
 }
 .experience-text {
   padding: 1em;
+}
+.experience-banner img {
+  padding-top: 1rem;
 }
 
 @media screen and (max-width: 600px) {
   .grid-experiences {
     grid-template-areas: "a" "b" "c";
     grid-template-columns: 1fr;
-    grid-template-rows: 400px 400px 400px;
+    grid-template-rows: 650px 650px 650px;
   }
 }
