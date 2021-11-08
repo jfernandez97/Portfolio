@@ -12,6 +12,15 @@ body {
 .col {
   width: 100%;
 }
+.image-box {
+  margin-top: 0;
+  padding: auto;
+  text-align: justify;
+  animation: from-right 1.5s ease;
+  padding-top: 1.5rem;
+  width: 80%;
+}
+
 // VARIABLES
 $color-primario: #551a8b;
 

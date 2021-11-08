@@ -14,33 +14,6 @@
     transform: translateX(0px);
   }
 }
-.grid-ejemplo {
-  display: grid;
-  width: 100%;
-  grid-template-areas:
-    "box1 box2"
-    "box3 box4";
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 100px 200px;
-  grid-gap: 2rem;
-}
-
-.box1 {
-  grid-area: box1;
-  background-color: blue;
-}
-.box2 {
-  grid-area: box2;
-  background-color: brown;
-}
-.box3 {
-  grid-area: box3;
-  background-color: yellow;
-}
-.box4 {
-  grid-area: box4;
-  background-color: green;
-}
 #tabla {
   border: coral;
 }
