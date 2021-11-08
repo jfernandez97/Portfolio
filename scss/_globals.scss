@@ -8,17 +8,18 @@ body {
   font-family: "Zen Kurenaido", sans-serif;
   font-size: 120%;
 }
-
+main {
+  min-height: calc(100vh - 103.5px - 248px);
+}
 .col {
   width: 100%;
 }
 .image-box {
   margin-top: 0;
-  padding: auto;
-  text-align: justify;
+  text-align: center;
   animation: from-right 1.5s ease;
   padding-top: 1.5rem;
-  width: 80%;
+  width: 100%;
 }
 
 // VARIABLES
