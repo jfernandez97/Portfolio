@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 body {
@@ -36,7 +37,6 @@ header {
 .footer {
   padding-top: 8rem;
   bottom: 0;
-  position: fixed;
   width: 100%;
 }
 .footer-sm {
@@ -130,7 +130,7 @@ fieldset {
   font-size: 2.5rem;
   font-weight: 800;
   padding-top: 1.5rem;
-  text-align: justify;
+  text-align: center;
 }
 
 .paragraph {
@@ -146,6 +146,19 @@ fieldset {
   text-align: justify;
   animation: from-right 1.5s ease;
   padding-top: 1.5rem;
+}
+
+.dev-icons {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+.software-skill__inline {
+  padding: 0 1rem;
 }
 
 /*EXTRAS*/
