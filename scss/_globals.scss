@@ -36,6 +36,8 @@ header {
 .footer {
   padding-top: 8rem;
   bottom: 0;
+  position: fixed;
+  width: 100%;
   &-sm {
     color: black;
     & a i {
