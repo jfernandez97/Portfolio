@@ -63,6 +63,10 @@ fieldset {
   text-align: center;
 }
 
+.row {
+  padding-top: 1rem;
+}
+
 @media screen and (min-width: 1024px) {
   .container-c {
     padding: 0 10rem;
@@ -97,7 +101,6 @@ fieldset {
 
 .experience-text {
   padding: 1em;
-  font-weight: 600;
 }
 
 .experience-banner img {
@@ -124,7 +127,6 @@ fieldset {
   text-transform: capitalize;
   font-size: 2.5rem;
   font-weight: 800;
-  margin-left: 2rem;
   padding-top: 1.5rem;
   text-align: justify;
 }
@@ -133,7 +135,6 @@ fieldset {
   font-size: 2rem;
   font-weight: 400;
   margin-top: 1.2rem;
-  margin-left: 2rem;
   text-align: justify;
 }
 
