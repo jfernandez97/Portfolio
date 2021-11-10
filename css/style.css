@@ -97,16 +97,19 @@ fieldset {
 .a {
   grid-area: a;
   background-image: linear-gradient(#551a8b, white);
+  margin-bottom: 2rem;
 }
 
 .b {
   grid-area: b;
   background-image: linear-gradient(#551a8b, white);
+  margin-bottom: 2rem;
 }
 
 .c {
   grid-area: c;
   background-image: linear-gradient(#551a8b, white);
+  margin-bottom: 2rem;
 }
 
 .experience-text {

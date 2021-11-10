@@ -14,14 +14,17 @@
   grid-area: a;
   //background-color: rgb(173, 173, 173);
   background-image: linear-gradient($color-primario, white);
+  margin-bottom: 2rem;
 }
 .b {
   grid-area: b;
   background-image: linear-gradient($color-primario, white);
+  margin-bottom: 2rem;
 }
 .c {
   grid-area: c;
   background-image: linear-gradient($color-primario, white);
+  margin-bottom: 2rem;
 }
 .experience-text {
   padding: 1em;
