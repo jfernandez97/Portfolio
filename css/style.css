@@ -14,10 +14,6 @@ main {
   min-height: calc(100vh - 103.5px - 248px);
 }
 
-.col {
-  width: 100%;
-}
-
 .image-box {
   margin-top: 0;
   text-align: center;
@@ -167,6 +163,10 @@ fieldset {
 
 .title2 {
   text-align: center;
+}
+
+.card-title {
+  font-weight: bolder;
 }
 
 /*EXTRAS*/
